@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .main {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(200, 240, 218);
+        }
+        
+        .head {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+        .foot {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+
+    <div class="main" id="page">
+        <div class="head">
+            <h1>SUCCESS ACADEMY</h1>
+
+            <div>
+                <li>
+                    Entrance exam preparation for(6th, 9th, 11th & Dip Engg) JMI, AMU & PUSA
+                </li>
+            </div>
+            <div>
+                <li>Weekly test to enhance learning.</li>
+            </div>
+            <li>Doubt classes.</li>
+            <li>Extra doubt clearing session to needy students.</li>
+        </div>
+        <div class="body">
+            <table class="table table-success table-striped">
+                <tr>
+                    <th>Class</th>
+                    <th>Subjects</th>
+                    <th>Fees</th>
+                    <th>Faculty</th>
+                </tr>
+                <tr>
+                    <td>1<sup>st</sup>-5<sup>th</sup></td>
+                    <td>All Subjects</td>
+                    <td>Rs. 10000 p.m</td>
+                    <td>Maths- Mohd Yusuf(5 year exp), Science- Danish(5 year exp)</td>
+                </tr>
+                <tr>
+                    <td>6<sup>th</sup>-10<sup>th</sup></td>
+                    <td>Maths, Science, SST</td>
+                    <td>Rs. 10000 p.m</td>
+                    <td>Maths- Mohd Yusuf(5 year exp), Science- Danish(5 year exp)</td>
+                </tr>
+                <tr>
+                    <td>11<sup>st</sup>-12<sup>th</sup></td>
+                    <td>PCMB</td>
+                    <td>Rs. 10000 p.m</td>
+                    <td>Maths- Mohd Yusuf(5 year exp), Science- Danish(5 year exp)</td>
+                </tr>
+                <tr>
+                    <td>11<sup>st</sup>-12<sup>th</sup>Arts &Com</td>
+                    <td>All Subjects</td>
+                    <td>Rs. 10000 p.m</td>
+                    <td>Maths- Mohd Yusuf(5 year exp), Science- Danish(5 year exp)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="foot">
+            <h3 style="padding: 10px">Address:-</h3>
+            <p style="padding: 10px">Near Nooh masjid Mobile- 9540878741</p>
+        </div>
+    </div>
+    <button onclick="printFunction()">Print</button>
+    <script>
+        function printFunction() {
+            window.print();
+        }
+    </script>
+</body>
+
+</html>
