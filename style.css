@@ -9,8 +9,11 @@
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     padding: 10px;
+     padding: 40px;
  }
+ /* .head p {
+     padding: 10px;
+ } */
  
  div.head {
      display: flex;
@@ -22,6 +25,7 @@
  .foot {
      display: flex;
      flex-direction: column;
+     padding: 40px;
  }
  
  li {
@@ -29,5 +33,5 @@
  }
  
  .body {
-     padding: 10px;
+     padding: 40px;
  }
