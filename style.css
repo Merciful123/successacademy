@@ -29,7 +29,8 @@
  }
  
  li {
-     color: green;
+     color: rgb(116, 61, 133);
+     font-size: 22px;
  }
  
  .body {
