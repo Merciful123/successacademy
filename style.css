@@ -1,0 +1,33 @@
+ .main {
+     display: flex;
+     flex-direction: column;
+     background-color: rgb(229, 245, 229);
+ }
+ 
+ .head {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+ }
+ 
+ div.head {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+ }
+ 
+ .foot {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ li {
+     color: green;
+ }
+ 
+ .body {
+     padding: 10px;
+ }
